@@ -67,11 +67,6 @@ body {
     color: #eeeeee !important;
 }
 
-pre {
-    color: #4a4a4a !important;
-    background-color: #ccc !important;
-}
-
 .assignment-row.root {
     background-color: #555 !important;
 }
@@ -84,14 +79,16 @@ pre {
 	background-color: #000000 !important;
 }
 
-#note > div > div > pre code {
-	   color: #c7254e;
+#note code,
+#note > div > div > pre,
+#Description > div > pre {
+    color: #ccc !important;
+    background-color: #444 !important;
+	border: 0px solid #cccccc !important; 
 }
 
-code {
-	background-color: #111 !important 
-}
-
+/*#note > div > div > code
 #note > div > div > pre {
-	background-color: #111 !important 
-}
+	background-color: #111 !important;
+	color: #c7254e !important
+}*/
