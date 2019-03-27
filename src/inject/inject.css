@@ -50,6 +50,10 @@ body {
     background-color: #111 !important; 
 }
 
+#maincontainer > div > div.col-sm-8.col-lg-9.expand-in-fullscreen.content-right > table > tbody > tr > td {
+	border-top: 0px solid #111 !important
+}
+
 .nav-tabs>li.active>a, 
 .nav-tabs>li.active>a:hover, 
 .nav-tabs>li.active>a:focus {
