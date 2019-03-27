@@ -35,7 +35,7 @@
 
 body {
     color: #dadada !important;
-    background-color: #222 !important;
+    background-color: #111 !important;
 }
 
 .nav-tabs {
@@ -47,7 +47,7 @@ body {
 }
 
 .course-navigation {
-    background-color: #222 !important; 
+    background-color: #111 !important; 
 }
 
 .nav-tabs>li.active>a, 
@@ -79,7 +79,7 @@ body {
 	background-color: #000000 !important;
 }
 
-#note code,
+code,
 #note > div > div > pre,
 #Description > div > pre {
     color: #ccc !important;
@@ -87,8 +87,8 @@ body {
 	border: 0px solid #cccccc !important; 
 }
 
-/*#note > div > div > code
-#note > div > div > pre {
-	background-color: #111 !important;
-	color: #c7254e !important
-}*/
+div#compilerOutput pre {
+    color: #ccc !important;
+    background-color: #444 !important;
+	border: 0px solid #cccccc !important; 
+}
