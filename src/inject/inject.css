@@ -1,0 +1,80 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+ 
+#Description > div.well {
+	max-height: 800px;
+    overflow: scroll;
+    overflow-x: auto;
+	background-color: #000000 !important;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #444 !important
+}
+
+body {
+    color: #dadada !important;
+    background-color: #2a2a2a !important;
+}
+
+.course-navigation {
+    background-color: #000000 !important; 
+}
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a:focus {
+    color: #cccccc !important;
+    background-color: #707070 !important;
+    border: 1px solid #ccc !important;
+}
+
+.nav-tabs>li>a {
+    background-color: #505050 !important;
+    color: #eeeeee !important;
+}
+
+pre {
+    color: #4a4a4a !important;
+    background-color: #ccc !important;
+}
+
+.assignment-row.root {
+    background-color: #555 !important;
+}
+
+.assignment-row:hover {
+    background-color: #000 !important;
+}
+
+.panel {
+	background-color: #000000 !important;
+}
+
+#note > div > div > pre code {
+	   color: #c7254e;
+}
+
+code {
+	background-color: #111 !important 
+}
+
+#note > div > div > pre {
+	background-color: #111 !important 
+}

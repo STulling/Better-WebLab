@@ -1,0 +1,20 @@
+{
+  "name": "Weblab pls fix",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Adds scrollable info box, dark theme and monokai editor. If you have any suggestions tell me: simon tulling",
+  "permissions": [
+    "https://weblab.tudelft.nl/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://weblab.tudelft.nl/*"
+      ],
+      "css": [
+        "src/inject/inject.css",
+		"src/inject/monokai.css"
+      ]
+    }
+  ]
+}
