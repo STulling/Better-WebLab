@@ -1,11 +1,11 @@
 # Better-WebLab
 Adds stuff that makes weblab better
 
-##Installation
+## Installation
 1. Download the file as a folder and put it somewhere
 2. Go to chrome://extensions
 3. Enable developer mode
 4. Select the folder
 
-##Preview (Version 0.0.1)
+## Preview (Version 0.0.1)
 ![Preview](https://i.imgur.com/vxbuiED.png)
