@@ -7,6 +7,11 @@
     overflow: scroll;
     overflow-x: auto;
 	background-color: #000000 !important;
+	border: 0px solid #e8e8e8 !important;
+}
+
+.row {
+    border-color: #404040 !important;
 }
 
 ::-webkit-scrollbar {
@@ -30,11 +35,19 @@
 
 body {
     color: #dadada !important;
-    background-color: #2a2a2a !important;
+    background-color: #222 !important;
+}
+
+.nav-tabs {
+	border-bottom: 0px solid #dddddd !important;
+}
+
+.col-lg-9.content-right {
+    border-left: 1px dashed #444 !important;
 }
 
 .course-navigation {
-    background-color: #000000 !important; 
+    background-color: #222 !important; 
 }
 
 .nav-tabs>li.active>a, 
@@ -42,7 +55,11 @@ body {
 .nav-tabs>li.active>a:focus {
     color: #cccccc !important;
     background-color: #707070 !important;
-    border: 1px solid #ccc !important;
+    border: 0px solid #ccc !important;
+}
+
+.aceEditor {
+    border: 0px solid #999 !important;
 }
 
 .nav-tabs>li>a {
