@@ -7,5 +7,5 @@ Adds stuff that makes weblab better
 3. Enable developer mode
 4. Select the folder
 
-##Preview
+##Preview (Version 0.0.1)
 ![Preview](https://i.imgur.com/vxbuiED.png)
